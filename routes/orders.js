@@ -16,6 +16,7 @@ router.post("/", async function(req, res) {
   const mollieClient = createMollieClient({
     apiKey: "test_C7HBBTMHxbxfKFpUE4Gq5FAUT6gnE9"
   });
+  // test
   let result = {};
   const extraParams = {
     locale: "nl_BE",
